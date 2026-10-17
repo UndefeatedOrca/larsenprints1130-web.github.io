@@ -16,19 +16,19 @@ intro: Where I've worked, what I studied, and the tools I use.
 
    During my employment at US Anodize, I
    
-####Summer 2025
+###Summer 2025
    
-   -Led and executed various improvement plans for the plant.
-   -Created an internal template to document configurations of parts and fixtures for repeated anodization processes.
-   -Designed and executed the reconfiguration and organization of an entire physical department on the plant floor.
-   -Categorized and organized subsets of titanium fixtures for easier identification and use by production employees.
+   - Led and executed various improvement plans for the plant.
+   - Created an internal template to document configurations of parts and fixtures for repeated anodization processes.
+   - Designed and executed the reconfiguration and organization of an entire physical department on the plant floor.
+   - Categorized and organized subsets of titanium fixtures for easier identification and use by production employees.
    
-####Summer 2026
+###Summer 2026
    
-   -Designed and manufactured Angle Jig fixture from CAD concept through prototyping, cutting set-up time on aluminum racking. Jig comprised of machined, Type-III anodized aluminum and 3D-printed angle setters.
-   -Designed and installed cart-mounted 3D-printed tool holders across Small Parts area workstations, standardizing tool access and organization.
-   -Performed structural static simulations for a new steel mezzanine, creating and iterating the design to hold a total of 9200 gallons of water (~75000 lbs.).
-   -Surveyed 100+ titanium fixtures for their current capacities to optimize electrical calculations and load sizes across all anodizing processes.
+   - Designed and manufactured Angle Jig fixture from CAD concept through prototyping, cutting set-up time on aluminum racking. Jig comprised of machined, Type-III anodized aluminum and 3D-printed angle setters.
+   - Designed and installed cart-mounted 3D-printed tool holders across Small Parts area workstations, standardizing tool access and organization.
+   - Performed structural static simulations for a new steel mezzanine, creating and iterating the design to hold a total of 9200 gallons of water (~75000 lbs.).
+   - Surveyed 100+ titanium fixtures for their current capacities to optimize electrical calculations and load sizes across all anodizing processes.
 
 <details>
    
