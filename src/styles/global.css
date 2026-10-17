@@ -75,6 +75,31 @@ h3 { font-size: 1.2rem; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.
 .prose table { border-collapse: collapse; width: 100%; font-size: 1rem; }
 .prose th, .prose td { text-align: left; padding: 0.5rem 0.75rem 0.5rem 0; border-bottom: 1px solid var(--line); }
 .prose iframe, .prose video { max-width: 100%; }
+.prose details { border-top: 1px solid var(--line); padding-block: 0.9rem; }
+.prose details:last-of-type { border-bottom: 1px solid var(--line); }
+.prose summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+}
+.prose summary::-webkit-details-marker { display: none; }
+.prose summary::after { content: '+'; margin-left: 0.5rem; color: var(--accent); }
+.prose details[open] > summary::after { content: '\2212'; }
+.prose summary .dates {
+  margin-left: auto;
+  font-family: var(--body);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--muted);
+}
+.prose details > :not(summary) { margin-top: 0.75rem; }
 
 .page-head { margin-bottom: 2.5rem; }
 .meta { font-family: var(--display); font-size: 0.95rem; color: var(--muted); margin: 0.9rem 0 0; }
