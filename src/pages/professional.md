@@ -23,6 +23,8 @@ intro: Where I've worked, what I studied, and the tools I use.
    - Created an internal template to document configurations of parts and fixtures for repeated anodization processes.
    - Designed and executed the reconfiguration and organization of an entire physical department on the plant floor.
    - Categorized and organized subsets of titanium fixtures for easier identification and use by production employees.
+
+</details>
    
 <details>
 <summary> Summer 2026</summary>
@@ -32,7 +34,10 @@ intro: Where I've worked, what I studied, and the tools I use.
    - Performed structural static simulations for a new steel mezzanine, creating and iterating the design to hold a total of 9200 gallons of water (~75000 lbs.).
    - Surveyed 100+ titanium fixtures for their current capacities to optimize electrical calculations and load sizes across all anodizing processes.
 
-<details>
+
+</details>
+
+</details>
    
 ### Previous Job Title, Company Name
 *Month Year to Month Year*
