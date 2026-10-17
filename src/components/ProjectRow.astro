@@ -1,0 +1,23 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  summary: string;
+  image: string;
+  date: Date;
+  tags: string[];
+}
+const { id, title, summary, image, date, tags } = Astro.props;
+const meta = [String(date.getUTCFullYear()), ...tags].join(', ');
+---
+
+<li>
+  <a class="project-row" href={`/projects/${id}`}>
+    <img src={image} alt="" loading="lazy" decoding="async" />
+    <div class="text">
+      <h3>{title}</h3>
+      <p>{summary}</p>
+      <span class="row-meta">{meta}</span>
+    </div>
+  </a>
+</li>

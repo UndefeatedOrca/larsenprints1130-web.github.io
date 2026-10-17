@@ -1,16 +1,24 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import Nav from "@/components/nav.astro";
-import Home from "@/components/home.astro";
-import Projects from "@/components/projects.astro";
-import Contact from "@/components/contact.astro";
-import Footer from "@/components/footer.astro";
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ProjectRow from '../components/ProjectRow.astro';
+import { SITE } from '../site';
+
+const all = await getCollection('projects', ({ data }) => !data.draft);
+const latest = all.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
 ---
 
-<Layout title="Your name">
-  <Nav />
-  <Home />
-  <Projects />
-  <Contact />
-  <Footer />
-</Layout>
+<Base>
+  <header class="page-head">
+    <h1>{SITE.tagline}</h1>
+    <p class="lede">
+      A collection of projects, professional work, and the things I make along the way.
+    </p>
+  </header>
+
+  <h2 style="margin-top:0">Recent projects</h2>
+  <ul class="project-list">
+    {latest.map((p) => <ProjectRow id={p.id} {...p.data} />)}
+  </ul>
+  <a class="section-link" href="/projects">See all projects</a>
+</Base>
