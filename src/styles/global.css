@@ -1,10 +1,10 @@
 :root {
-  --bg: #303043;
-  --paper: #191924;
-  --ink: #b6deff;
-  --muted: #7fabcd;
-  --line: #17a642;
-  --accent: #027800;
+  --bg: #363636;
+  --paper: #000000;
+  --ink: #ecf9ff;
+  --muted: #8fadd0;
+  --line: #d08700;
+  --accent: #d08700;
 
   --display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
   --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
@@ -77,6 +77,9 @@ h3 { font-size: 1.2rem; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.
 .prose iframe, .prose video { max-width: 100%; }
 .prose details { border-top: 1px solid var(--line); padding-block: 0.9rem; }
 .prose details:last-of-type { border-bottom: 1px solid var(--line); }
+.prose .cols ul {columns: 2 14rem; column-gap: 2.5rem; }
+.prose .cols-3 ul { columns: 3 10rem; }
+.prose .cols li { break-inside: avoid; }
 .prose summary {
   display: flex;
   flex-wrap: wrap;
