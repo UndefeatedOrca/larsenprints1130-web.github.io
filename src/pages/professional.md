@@ -12,7 +12,7 @@ intro: How, What, When, and Where I Have Worked
 <details open>
 <summary> US Anodize - Continuous Improvement and Design Internships</summary>
 
-![The logo of US Anodize](/public/images/projects/Faceted-Logo-NoBG.png)
+![The logo of US Anodize](/images/projects/Faceted-Logo-NoBG.png)
 
    US Anodize is an amazing company providing, mostly, aluminum finishing services. The leadership there is overwhelmingly kind and welcoming, and over my two summers there I got to learn about so much and contribute to many interesting projects, usually learning or teaching myself the core concepts of the things I got to work on while I did them. I got to develop all the skills I knew I wanted to exercise, even in a role that wasn't as focused on the particularly mechanical side of my engineering education. I am endlessly grateful to everyone who I got to work with there.
 
@@ -27,7 +27,7 @@ intro: How, What, When, and Where I Have Worked
    - Designed and executed the reconfiguration and organization of an entire physical department on the plant floor.
    - Categorized and organized subsets of titanium fixtures for easier identification and use by production employees.
 
-   ![A US Anodize truck parked outside the company facility, with the surrounding lot and building in view.](/public/images/projects/US-Anodize-Truck-Pic.jpg)
+   ![A US Anodize truck parked outside the company facility, with the surrounding lot and building in view.](/images/projects/US-Anodize-Truck-Pic.jpg)
 
 </details>
    
