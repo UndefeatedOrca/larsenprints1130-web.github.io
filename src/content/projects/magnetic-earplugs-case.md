@@ -29,7 +29,7 @@ In its final form, I think the case accomplishes all these goals and more.
 ### Base Parts
 The final design used basic Black PLA for the 3D printed components. I used a high infill so the whole case has a satisfying heft to it, but it's ultimately plastic so it doesn't feel heavy in my pocket.
 
-<model-viewer src="/3d-models/earplugs-case.glb" alt="3D model of case" camera-controls auto-rotate environment-image="neutral" exposure="1.7" shadow-intensity="1" orientation="0deg 270deg 0deg"></model-viewer>
+<model-viewer src="/3d-models/earplugs-case.glb" alt="3D model of case" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" orientation="0deg 270deg 0deg"></model-viewer>
 
 ### Hinge
 The hinge portion connecting the top and base postions of the case is actually a pin from the mechanism that holds most watch bands on to the lugs of the watch itself. I had a bunch of these on hand, and they install permanently and invisibly thanks to spring-loaded tips on either end of the pin, so the whole thing goes together seamlessly and holds up very well over time.
