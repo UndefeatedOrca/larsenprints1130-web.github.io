@@ -150,9 +150,9 @@ h3 { font-size: 1.2rem; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.
 
 /* ---------- Project page ---------- */
 .project-hero {
-   width: auto; height: auto; max-height: 30rem;
+   width: auto; height: auto; max-height: 30rem; max-width: 100%;
    object-fit: contain; margin: 0 0 2.5rem;
-   display: block; object-position: left top; 
+   display: block; 
    border: 2px solid var(--line);
 }
 .back { font-family: var(--display); font-size: 0.95rem; display: inline-block; margin-bottom: 1.5rem; }
