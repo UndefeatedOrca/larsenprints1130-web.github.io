@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice">
-  <rect width="1200" height="500" fill="#4b3f38"/>
-  <defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".12"/></pattern></defs>
-  <rect width="1200" height="500" fill="url(#g)"/>
-  <circle cx="820" cy="250" r="160" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="3"/>
-  <circle cx="820" cy="250" r="80" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
-  <path d="M560 250H1080M820 60V440" stroke="#ffffff" stroke-opacity=".3" stroke-dasharray="14 8"/>
-</svg>

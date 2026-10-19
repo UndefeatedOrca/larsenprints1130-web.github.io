@@ -12,7 +12,7 @@ intro: How, What, When, and Where I Have Worked
 <details open>
 <summary> US Anodize - Continuous Improvement and Design Internships</summary>
 
-![The logo of US Anodize](/images/projects/Faceted-Logo-NoBG.png)
+![The logo of US Anodize](/images/projects/anodize-faceted-logo-trimmed.png)
 
    US Anodize is an amazing company providing, mostly, aluminum finishing services. The leadership there is overwhelmingly kind and welcoming, and over my two summers there I got to learn about so much and contribute to many interesting projects, usually learning or teaching myself the core concepts of the things I got to work on while I did them. I got to develop all the skills I knew I wanted to exercise, even in a role that wasn't as focused on the particularly mechanical side of my engineering education. I am endlessly grateful to everyone who I got to work with there.
 
@@ -53,7 +53,7 @@ intro: How, What, When, and Where I Have Worked
 
 I graduated in 2024 from Schuylkill Valley High School. I was also working at Texas Roadhouse at the time but you likely don't really care about that.
 
-I did, like, clubs and stuff but honestly that's not exactly the most important. You can see the actually impressive projects I did back then on my projects page [here](https://lmhale.com/projects).
+I did, like, clubs and stuff but honestly that's not exactly the most important. You can see the (few) actually impressive projects I did back then on my projects page [here](https://lmhale.com/projects).
 
 Clubs (alphabetical):
 

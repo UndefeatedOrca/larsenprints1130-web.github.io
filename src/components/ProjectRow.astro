@@ -1,4 +1,5 @@
 ---
+import { visibleTags } from '../projects';
 interface Props {
   id: string;
   title: string;
@@ -8,7 +9,7 @@ interface Props {
   tags: string[];
 }
 const { id, title, summary, image, date, tags } = Astro.props;
-const meta = [String(date.getUTCFullYear()), ...tags].join(', ');
+const meta = [String(date.getUTCFullYear()), ...visibleTags(tags)].join(', ');
 ---
 
 <li>

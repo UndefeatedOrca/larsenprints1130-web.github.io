@@ -1,11 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import ProjectRow from '../components/ProjectRow.astro';
 import { SITE } from '../site';
+import { getProjects, isPinned } from '../projects';
 
-const all = await getCollection('projects', ({ data }) => !data.draft);
-const latest = all.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+const projects = await getProjects();
+const pinned = projects.filter(isPinned);
+// Show pinned projects; if none are pinned yet, fall back to the three newest.
+const featured = pinned.length > 0 ? pinned : projects.slice(0, 3);
+const heading = pinned.length > 0 ? 'Featured projects' : 'Recent projects';
 ---
 
 <Base>
@@ -16,9 +19,9 @@ const latest = all.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     </p>
   </header>
 
-  <h2 style="margin-top:0">Recent projects</h2>
+  <h2 style="margin-top:0">{heading}</h2>
   <ul class="project-list">
-    {latest.map((p) => <ProjectRow id={p.id} {...p.data} />)}
+    {featured.map((p) => <ProjectRow id={p.id} {...p.data} />)}
   </ul>
   <a class="section-link" href="/projects">See all projects</a>
 </Base>
