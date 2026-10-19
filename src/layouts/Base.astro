@@ -41,6 +41,19 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path === href
       </div>
     </header>
 
+<script>
+  document.querySelectorAll('.sorted ul').forEach((ul) => {
+    const items = Array.from(ul.children);
+    items.sort((a, b) =>
+      a.textContent.trim().localeCompare(b.textContent.trim(), undefined, {
+        sensitivity: 'base',
+        numeric: true,
+      })
+    );
+    items.forEach((li) => ul.appendChild(li));
+  });
+</script>
+
     <main>
       <div class="wrap">
         <slot />

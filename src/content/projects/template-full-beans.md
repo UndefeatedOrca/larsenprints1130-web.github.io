@@ -1,9 +1,10 @@
 ---
-title: Mousetrap Car
-summary: The final group project for my Intro to Engineering Fundamentals course in freshman year.
-image: /images/projects/mousetrap-car/hero.JPG
-date: 2024-12-02
-tags: [pinned, Solidworks, School]
+title: Example Project One
+summary: One sentence on what this is and why it matters.
+image: /images/projects/example-1.svg
+date: 2025-06-01
+tags: [CAD, Machining,]
+draft: true
 ---
 
 ## Goal

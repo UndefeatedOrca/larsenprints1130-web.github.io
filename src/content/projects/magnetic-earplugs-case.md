@@ -3,7 +3,7 @@ title: Magnetic PPE Earplugs Case
 summary: 3D printed case with a magnetic clasp for my EDC earplugs.
 image: /images/projects/earplugs-case/main.png
 date: 2026-06-24
-tags: [pinned, 3D Printing, Laser Engraving]
+tags: [Pinned, 3D Printing, Laser Engraving]
 ---
 
 ## Goals

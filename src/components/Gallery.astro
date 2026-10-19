@@ -1,0 +1,33 @@
+---
+// Shows every image in public/images/<folder>, sorted by filename.
+// Usage in an .mdx page:  <Gallery folder="cad-portfolio" />
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  folder: string;
+}
+const { folder } = Astro.props;
+
+const dir = path.join(process.cwd(), 'public', 'images', folder);
+const exts = ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.svg'];
+
+const files = fs.existsSync(dir)
+  ? fs
+      .readdirSync(dir)
+      .filter((f) => exts.includes(path.extname(f).toLowerCase()))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
+  : [];
+
+// "bracket-assembly_v2.jpg" -> "bracket assembly v2"
+const labelFor = (f: string) => path.parse(f).name.replace(/[-_]+/g, ' ');
+---
+
+<div class="gallery">
+  {files.map((f) => (
+    <a href={`/images/${folder}/${f}`} target="_blank" rel="noopener">
+      <img src={`/images/${folder}/${f}`} alt={labelFor(f)} loading="lazy" decoding="async" />
+    </a>
+  ))}
+</div>
+{files.length === 0 && <p><em>No images found in public/images/{folder}.</em></p>}

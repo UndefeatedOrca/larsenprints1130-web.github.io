@@ -9,7 +9,12 @@ const projects = await getProjects();
 <Base title="Projects" description="Engineering and making projects.">
   <header class="page-head">
     <h1>Projects</h1>
-    <p class="lede">Things I've designed, built, and tested. Select one for the full write-up.</p>
+    <p class="lede">Things I've designed, built, and tested.</p>
+    <h4>
+    I have a few projects pinned to the top,
+    the rest are just sorted by date. Click any for its full write-up.
+    </h4>
+
   </header>
   <ul class="project-list">
     {projects.map((p) => <ProjectRow id={p.id} {...p.data} />)}

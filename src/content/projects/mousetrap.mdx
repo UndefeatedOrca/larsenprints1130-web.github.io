@@ -1,0 +1,78 @@
+---
+title: Mousetrap Car
+summary: The final group project for my Intro to Engineering Fundamentals course in freshman year.
+image: /images/projects/mousetrap-car/hero.webp
+date: 2024-12-02
+tags: [Pinned, Solidworks, School, Group Project]
+---
+
+import Gallery from '../../components/Gallery.astro';
+
+Big thanks to my two friends Connor Archer and Landon Mills for helping me out for this. We all contributed heavily to the design, construction, and write-up of the original report.
+
+![Myself and two teammates on the project](/images/projects/mousetrap-car/friendship.webp)
+
+## Goal
+
+This was a class project for my ENGR 110 class in freshman year of college. It was the final project, but we worked on it throughout the entire semester as we learned about the tools and techniques we needed to make progress. There were lots of rules and portions of the rubric, and we managed a 110% in the 'competition' portion of the assignment and a 98% for our design report.
+
+## Design
+
+The competition followed a set of rules designed specifically for our class. We needed to make a mousetrap car that met a bunch of restrictions and requirement and which competed in 3 events:
+
+- Short-distance braking test
+- Long-distance braking test
+- Furthest distance competition
+
+Everything except the brakes and construction were fairly heavily regulated by the rules, so I won't go into detail on those design decisions because they were sort've made for us.
+
+<details>
+<summary> Brakes</summary>
+The braking competitions required us to brake in (if memory serves) a 1 x 1 meter area at the end of a 5 meter course, then a 2 x 1 meter area at the end of a 10 meter course. We could use any braking mechanism as long as it was self-contained on the car (with some exceptions).
+
+A common brake system (indeed, the one most used by our peers) is to add a wing nut on a lead screw to one of the sets of wheels so that, after a certain number of wheel revolutions, the wing nut locks up the wheel and instantly stops the car.
+
+We went a different route. We created components which bolted on to the front and rear axles and had a place to hook a teflon string that wound off of one axle and onto the other. Once the string finished its course, it bound up and locked the front and rear axles against one another, braking the car in exactly the right spot.
+
+To make sure we could comply with the "no changing out parts between events" rule, we included bolts in the main body so that we could wrap the different-length strings for the different braking distances safely out of the way when they weren't needed.
+
+![A picture of the string wrapped around the bolts on the body of the car](/images/projects/mousetrap-car/brake-gif.gif)
+
+</details>
+
+<details>
+<summary> Construction</summary>
+
+The body was fairly simple. We decided on a piece of balsa wood as the 'frame' of the car, since it was lightweight and we had a restriction on the amount of 3D-printed material we were allowed to use on the car.
+
+A 3D-printed cradle on either end held bearings and aluminum axles ran through the bearings, which were only press-fit in. 
+
+![A picture of the construction of the rear transmission assembly](/images/projects/mousetrap-car/transmission.webp)
+
+The mousetrap - the sole source of power to the vehicle - was elevated by a small standoff to make sure its lever was more-or-less level with the top of our transmission on the rear axle.
+
+In the above picture, you can also see the slight 'cam-profile' we gave to the lower-gear portion of the transmission. This shark-fin shape made it so that the car had a more rapid acceleration in the first moments of the mousetrap unwinding. The lower gear was intended for the distance events, so this gave the car some extra initial speed, and it ultimately helped to overcome the static friction vary effectively, extending our range by a number of meters.
+
+</details>
+
+## Build
+
+You're smart, so you can see how this went together by looking at it. The wooden body was intended to be lasercut, but I wound up just drawing the dimensions and cutting it out with a bandsaw, sander, and drill.
+
+The 3D prints were provided by a combination of mr. Archer and the LU School of Engineering Makerspace. The bearings and mousetrap were provided by the professor. I happened to have the bolts and rubber bands on hand.
+
+## Testing and iteration
+
+We had to adjust the diameters for the 'gears' that we selected for our transmission twice. The final iteration worked the best, as you may imagine. In addition to changing the diameters (and hence mechanical advantage), we also changed the geometry of the 'hooks', which were where the string at the end of the mousetrap hooked into the transmission to transfer the load. In the first versions, there were frequent issues with the string slipping off of the hook and wasting much of the mousetrap spring's stored energy.
+
+My first design for the linkage between the mousetrap and the rod that attaches to the string sucked. It was flimsy and had no good way of securely holding the rod; I frankly don't even remember what I was trying to do. In the V2, I used zip-ties to hold the rod on and it worked like a charm.
+
+![An image of the mousetrap](/images/projects/mousetrap-car/powertrain.webp)
+
+## Outcome
+
+We all got an A, both on the project and in the class. I personally learned a lot and got my start with Solidworks, which I promptly stopped using for a year and a half because I don't like it.
+
+Our car met all the goals, both for our personal critera and for those of the assignment. I have since been able to show off my mad engineering skills to a whole host of parents, cousins, and friends by demonstrating the use of the car in the halls of my own home (yes, I totally took it).
+
+<Gallery folder="projects/mousetrap-car" />
