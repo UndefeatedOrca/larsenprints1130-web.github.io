@@ -84,6 +84,16 @@ h3 { font-size: 1.2rem; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.
 .prose .cols ul {columns: 2 14rem; column-gap: 2.5rem; }
 .prose .cols-3 ul { columns: 3 10rem; }
 .prose .cols li { break-inside: avoid; }
+.prose model-viewer {
+  display: block;
+  width: 100%;
+  height: 28rem;
+  margin: 1.75rem 0;
+  border: 2px solid var(--line);
+  background: var(--paper);
+}
+.prose .embed { aspect-ratio: 16 / 10; margin: 1.75rem 0; border: 2px solid var(--line); }
+.prose .embed iframe { width: 100%; height: 100%; border: 0; display: block; }
 .prose summary {
   display: flex;
   flex-wrap: wrap;

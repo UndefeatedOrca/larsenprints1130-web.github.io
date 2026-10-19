@@ -26,3 +26,10 @@ const meta = [String(date.getUTCFullYear()), ...tags].join(', ');
     <Content />
   </div>
 </Base>
+
+<script>
+  // Only load the 3D viewer on pages that actually contain one.
+  if (document.querySelector('model-viewer')) {
+    import('@google/model-viewer');
+  }
+</script>
