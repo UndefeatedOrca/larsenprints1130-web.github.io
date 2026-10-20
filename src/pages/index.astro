@@ -19,6 +19,13 @@ const heading = pinned.length > 0 ? 'Featured projects' : 'Recent projects';
     </p>
   </header>
 
+<p>
+ Take a look around! Get a birds-eye view of me from the <a href={SITE.github} target="_blank" rel="noopener">About
+ </a> page, learn about me <a href={SITE.github} target="_blank" rel="noopener">Professionally</a>
+ , or just look at my <a href={SITE.github} target="_blank" rel="noopener">Projects</a>
+  .
+</p>
+
   <h2 style="margin-top:0">{heading}</h2>
   <ul class="project-list">
     {featured.map((p) => <ProjectRow id={p.id} {...p.data} />)}
