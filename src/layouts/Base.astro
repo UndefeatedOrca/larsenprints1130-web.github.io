@@ -70,5 +70,11 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path === href
         </ul>
       </div>
     </footer>
+   <script>
+  // Only load the 3D viewer on pages that actually contain one.
+  if (document.querySelector('model-viewer')) {
+    import('@google/model-viewer');
+  }
+</script> 
   </body>
 </html>

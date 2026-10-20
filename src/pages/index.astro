@@ -24,4 +24,20 @@ const heading = pinned.length > 0 ? 'Featured projects' : 'Recent projects';
     {featured.map((p) => <ProjectRow id={p.id} {...p.data} />)}
   </ul>
   <a class="section-link" href="/projects">See all projects</a>
+  <model-viewer class="hero-model" src="/3d-models/my-head-blend.glb" alt="3D model of my face" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1"></model-viewer>
 </Base>
+
+<script>
+  // Start downloading the 3D model only after the rest of the page has finished loading.
+  const viewer = document.querySelector<HTMLElement>('.hero-model');
+  const start = () => {
+    const src = viewer?.dataset.src;
+    if (viewer && src) viewer.setAttribute('src', src);
+  };
+  const later = () => {
+    if ('requestIdleCallback' in window) requestIdleCallback(start, { timeout: 3000 });
+    else setTimeout(start, 500);
+  };
+  if (document.readyState === 'complete') later();
+  else window.addEventListener('load', later);
+</script>
