@@ -2,9 +2,9 @@
   --bg: #363636;
   --paper: #000000;
   --ink: #ecf9ff;
-  --muted: #8fadd0;
-  --line: #d08700;
-  --accent: #d08700;
+  --muted: #8eb7e6;
+  --line: #e76c00;
+  --accent: var(--line);
 
   --display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
   --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;

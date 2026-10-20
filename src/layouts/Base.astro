@@ -21,6 +21,9 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path === href
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/apple-touch-icon.png" sizes="180x180" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -65,8 +68,8 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path === href
         <span>&copy; {new Date().getFullYear()} {SITE.name}</span>
         <ul>
           <li><a href={`mailto:${SITE.email}`}>Email</a></li>
-          <li><a href={SITE.github}>GitHub</a></li>
-          <li><a href={SITE.linkedin}>LinkedIn</a></li>
+          <li><a href={SITE.github} target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href={SITE.linkedin} target="_blank" rel="noopener">LinkedIn</a></li>
         </ul>
       </div>
     </footer>

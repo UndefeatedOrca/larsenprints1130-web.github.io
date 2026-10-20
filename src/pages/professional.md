@@ -7,7 +7,7 @@ intro: How, What, When, and Where I Have Worked
 
 <a href="/resume.pdf" target="_blank" rel="noopener">Obligatory Resume Insert (PDF)</a>
 
-## Experience
+## Industry Experience
 
 <details open>
 <summary> US Anodize - Continuous Improvement and Design Internships</summary>
@@ -51,13 +51,13 @@ intro: How, What, When, and Where I Have Worked
 <details>
 <summary> High School</summary>
 
-I graduated in 2024 from Schuylkill Valley High School. I was also working at Texas Roadhouse at the time but you likely don't really care about that.
+I graduated in 2024 from Schuylkill Valley High School (Go Panthers). I was also working at Texas Roadhouse at the time but you likely don't really care about that.
 
 I did, like, clubs and stuff but honestly that's not exactly the most important. You can see the (few) actually impressive projects I did back then on my projects page [here](https://lmhale.com/projects).
 
 Clubs (alphabetical):
 
-<div class="cols">
+<div class="sorted cols">
 
 - AV Club
 - Academic Challenge
@@ -66,6 +66,8 @@ Clubs (alphabetical):
 - Reading Olympics
 - Scientific Olympiad
 - Panthers On Parade (SVHS Theater)
+- Debate Club
+- Jazz Band
 
 </div>
 
@@ -78,14 +80,14 @@ Oh, also I got a 1450 on my SAT and got an AP® Scholar with Honor Award.
 
 #### 2024-2028 (Lord Willing)
 
-I'm now in my Junior year of my Mechanical Engineering degree at Liberty. It's been a lot of late nights, study sessions, and getting used to worse grades, but I wouldn't trade it for anything. I am so unbelievably lucky to be in the position to learn and grow here, and my friends in and outside the school of engineering have been blessings beyond anything I could deserve.
+I'm now in my Junior year of my Mechanical Engineering degree at Liberty (Go Flames). It's been a lot of late nights, study sessions, and getting used to worse grades, but I wouldn't trade it for anything. I am so unbelievably lucky to be in the position to learn and grow here, and my friends in and outside the school of engineering have been blessings beyond anything I could deserve.
 
 So far, I've taken:
 
 <div class="cols">
 
 - Calculus 1-3 & Differential Equations
-- Physics I (also AP in high school, I got a 5)
+- Physics I (also AP in high school; I got a 5)
 - Engineering Economy
 - Technical Communication
 - Gen. Chemistry I
@@ -114,6 +116,37 @@ Academics have been challenging in new and exciting ways each semester. All of F
 
 ## Skills and tools
 
-- **Design and analysis:** CAD software, FEA, GD&T
-- **Fabrication:** machining, welding, 3D printing
-- **Other:** anything else worth listing
+### CAD & Other Softwares
+<div class="sorted cols-3">
+
+- Solidworks
+- ANSYS
+- Onshape
+- Autodesk Fusion
+- Autodesk AutoCAD
+- MS Excel
+- MS Powerpoint
+- MS Word
+- VS Code
+- MATLAB
+- Bambu Studio
+- xTool Studio
+
+
+</div>
+
+### Fabrication Experience
+
+<div class="sorted cols-3">
+
+- Woodworking
+- Laser Cutting
+- Laser Engraving
+- Sheet Metal
+- Anodizing
+   - Permodize
+- Waterjet Cutting
+- Composites (CF)
+- CNC Routing
+
+</div>
